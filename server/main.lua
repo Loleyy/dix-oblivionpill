@@ -1,4 +1,4 @@
-ESX = nil
+ESX = 		nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
@@ -7,6 +7,6 @@ ESX.RegisterUsableItem('piluleoubli', function(source)
 	TriggerClientEvent('dix-oblivionpill:piluleoubli', source)
 	xPlayer.removeInventoryItem('piluleoubli', 1)
 	TriggerClientEvent('esx:showNotification', source, _U('oblivionpill_used'))
-	Citizen.Wait(180000)
+	Citizen.Wait(20000)
 	TriggerClientEvent('dix-oblivionpill:stoppill', source)
 end)

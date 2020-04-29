@@ -1,3 +1,3 @@
-INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
-	('piluleoubli', 'Pilule de l\'oubli', 5, 0, 1)
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES
+	('piluleoubli', 'Pilule de l\'oubli', 1, 0, 1)
 ;
